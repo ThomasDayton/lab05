@@ -28,14 +28,22 @@ public class PersonCreator
     private String dateOfBirth;
     
     /**
-     * Create a person based on the following parameters.
+     * Description: Makes the person based on a first and last name.
+     * Input: String personFirstName, String personLastName
+     * Output: void
+     * Purpose: To create the person and give it a name.
+     * Example: Thomas Dayton
      */
-    public PersonCreator(String personFirstName, String personLastName)
+    public void PersonCreator(String personFirstName, String personLastName)
     {
         name = personFirstName + " " + personLastName;
     }
     /**
-     * Create the Person's age.
+     * Description: Defines the person's name.
+     * Input: int personAge
+     * Output: void
+     * Purpose: To give the person a valid age.
+     * Example: 17
      */
     public void PersonAge(int personAge)
     { 
@@ -49,14 +57,22 @@ public class PersonCreator
         }
     }
     /**
-     * Create the Person's sex.
+     * Description: Defines the person's sex.
+     * Input: String personSex
+     * Output: void
+     * Purpose: To give the person a gender.
+     * Example: Male
      */
     public void PersonSex(String personSex)
     {
         sex = personSex;
     }
     /**
-     * Create the Person's height.
+     * Description: Defines the person's height.
+     * Input: int personHeight
+     * Output: void
+     * Purpose: To give the person a valid height.
+     * Example: 72
      */
     public void PersonHeight(int personHeight)
     {
@@ -70,7 +86,11 @@ public class PersonCreator
         }
     }
     /**
-     * Create the Person's weight.
+     * Description: Defines the person's weight.
+     * Input: int personWeight
+     * Output: void
+     * Purpose: To give the person a valid height.
+     * Example: 191
      */
     public void PersonWeight(int personWeight)
     {
@@ -84,7 +104,11 @@ public class PersonCreator
         }
     }
     /**
-     * Create the Person's Social Security Number.
+     * Description: Defines the person's Social Security Number.
+     * Input: int firstThreeNumbers, int middleTwoNumbers, int lastFourNumbers
+     * Output: void
+     * Purpose: To give the person a valid Social Security Number.
+     * Example: 111-11-1111
      */
     public void PersonSocialSecurityNumber (int firstThreeNumbers, int middleTwoNumbers, int lastFourNumbers)
     {
@@ -106,14 +130,22 @@ public class PersonCreator
         }
     }
      /**
-     * Create the Person's address.
+     * Description: Defines the person's address.
+     * Input: String personAddress
+     * Output: void
+     * Purpose: To give the person an address.
+     * Example: 17 Summit Street
      */
     public void PersonAddress(String personAddress)
     {
         address = personAddress;
     }
     /**
-     * Create the Person's phone number.
+     * Description: Defines the person's phone number.
+     * Input: int areaCode, int numBegin, int numEnd
+     * Output: void
+     * Purpose: To give the person a valid phone number.
+     * Example: 516-702-1226
      */
     public void PersonPhoneNumber(int areaCode, int numBegin, int numEnd)
     {
@@ -135,7 +167,11 @@ public class PersonCreator
         }
     }
     /**
-     * Create the Person's date of birth.
+     * Description: Defines the person's birth date,
+     * Input: int monthDate, int dayDate, int yearDate
+     * Output: void
+     * Purpose: To give the person a valid date of birth.
+     * Example: 11 4 1998
      */
     public void PersonDateOfBirth(int monthDate, int dayDate, int yearDate)
     {
@@ -157,7 +193,11 @@ public class PersonCreator
         }
     }
     /**
-     * Print the Person's information.
+     * Description: Prints the information about the person.
+     * Input: none
+     * Output: void
+     * Purpose: To show the user the information about the person.
+     * Example: Person's name: Thomas Dayton, Person's age: 17, etc.
      */
     public void PrintPerson()
     {
